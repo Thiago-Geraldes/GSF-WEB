@@ -1,0 +1,793 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #0B0D19;
+    height: 100vh;
+}
+
+ul, li{
+    list-style: none;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.auth-buttons .signup {
+    background-color: #6366F1;
+    color: white;
+}
+
+.auth-buttons .login {
+    background-color: #ffffff;
+    color: #6366F1;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-size: cover;
+    background-position: center;
+}
+
+.mainhome {
+    height: 100vh;
+    background-image: url('Lade\ Page.jpg');
+}
+.hero {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 4em;
+    margin-bottom: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.explore-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0b132b;
+    color: white;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.auth-buttons .signup {
+    background-color: #6366F1;
+    color: white;
+}
+
+.auth-buttons .login {
+    background-color: #ffffff;
+    color: #6366F1;
+}
+
+main.about-us {
+    padding-top: 2.5rem;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.intro h1 {
+    font-size: 3em;
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin: 20px 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0B0D19;
+    padding: 20px;
+    gap: 1rem;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    border-radius: 10px;
+    width: 80%;
+    color: #FFF;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.img-team {
+    flex: 0 0 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+}
+
+.img-team img {
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+}
+
+.info-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B1E30;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #00BFA6;
+}
+
+.info h3 {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #00BFA6;
+}
+
+.info p {
+    font-size: 14px;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0b132b;
+    color: white;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.auth-buttons .signup {
+    background-color: #6366F1;
+    color: white;
+}
+
+.auth-buttons .login {
+    background-color: #ffffff;
+    color: #6366F1;
+}
+
+main.oil-info {
+    padding: 50px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro h1 {
+    font-size: 3em;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.content-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.content-row img {
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.content-row .text {
+    width: 50%;
+}
+
+.content-row .text p {
+    font-size: 1em;
+    line-height: 1.6;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.home-button {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.home-button img {
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0b132b;
+    color: white;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.auth-buttons .signup {
+    background-color: #6366F1;
+    color: white;
+}
+
+.auth-buttons .login {
+    background-color: #ffffff;
+    color: #6366F1;
+}
+
+main.oil-info {
+    padding: 50px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro h1 {
+    font-size: 3em;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.content-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.content-row img {
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.content-row .text {
+    width: 50%;
+}
+
+.content-row .text p {
+    font-size: 1em;
+    line-height: 1.6;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.home-button {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.home-button img {
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0b132b;
+    color: white;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.auth-buttons .signup {
+    background-color: #6366F1;
+    color: white;
+}
+
+.auth-buttons .login {
+    background-color: #ffffff;
+    color: #6366F1;
+}
+
+main.waveguard-info {
+    padding: 50px;
+    
+}
+
+.main-aboutUs {
+    background-color: #0B0D19;
+
+}
+
+.intro-sobre {
+    text-align: center;
+    background-color: #003E52;
+}
+
+.content-intros {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 20px;
+    padding: 1rem 5rem;
+    margin: 0 auto;
+    text-align: justify;
+    
+    width: 80%;
+}
+
+.content-intros img {
+    width: 300px;
+    border-radius: 5px;
+}
+.introwave .content-row {
+    background-image: url(fundo\ wv.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    height: 350px;
+}
+
+.introwave .content-row h1 {
+    font-size: 32px;
+}
+.intro h1 {
+    font-size: 3em;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.content-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+.content-row img {
+    width: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.content-row .text {
+    width: 50%;
+}
+
+.content-row .text p {
+    font-size: 1em;
+    line-height: 1.6;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.home-button {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.home-button img {
+    width: 50px;
+    height: 50px;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0b132b;
+    color: white;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.auth-buttons .signup {
+    background-color: #6366F1;
+    color: white;
+}
+
+.auth-buttons .login {
+    background-color: #ffffff;
+    color: #6366F1;
+}
+
+main.social-info {
+    padding: 50px;
+    text-align: center;
+    height: 100vh;
+}
+
+.intro h1 {
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+.social-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.social-esquerda, .social-esquerda {
+    width: 20%;
+    text-align: left;
+}
+
+.social-middle {
+    width: 20%;
+    text-align: center;
+}
+
+.social-middle img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.social-esquerda h2, .social-right h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.social-esquerda p, .social-right p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.social-left p img, .social-right p img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/*começo do js */
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #0B0D19;
+
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+section {
+    margin: 20px 0;
+}

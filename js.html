@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Web Development</h1>
+        <li><a href="index.html">Home</a></li>
+        <div id="auth-buttons">
+            <button id="login-button">Log in</button>
+            <button id="signup-button">Sign Up</button>
+        </div>
+    </header>
+    <main>
+        <section id="alert-section">
+            <button id="alert-button">Clique para Alerta</button>
+        </section>
+        <section id="login-section" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h2>Login</h2>
+                <form id="login-form">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                    <button type="submit">Login</button>
+                </form>
+                <p id="login-message"></p>
+            </div>
+        </section>
+        <section id="carousel-section">
+            <h2>Carrossel Dinâmico</h2>
+            <div id="carousel">
+                <div class="carousel-item"><img src="thiago.png" alt="Thiago"></div>
+                <div class="carousel-item"><img src="Danilo  1.jpg" alt="Danilo"></div>
+                <div class="carousel-item"><img src="Kairo 1.jpg" alt="Kairo"></div>
+            </div>
+            <button id="prev">Anterior</button>
+            <button id="next">Próximo</button>
+        </section>
+        <section id="effects-section">
+            <h2>Efeito</h2>
+            <button id="effect-button">Aplicar Efeito</button>
+            <div id="effect-box">Caixa de Efeito</div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
